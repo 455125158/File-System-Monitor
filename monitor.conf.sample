@@ -1,0 +1,17 @@
+#说明：
+##插件路径
+#插件在plugin中，自己编写DefPlugin.py  模块中  DefPlugin 子类，实现插件。
+#
+
+[info]
+
+#下面是正常日志名称，
+log_file_name=monitor.log
+
+#日志文件路径
+log_file_path=/home/lee/monitor/log/
+#监听的目录
+monitor_path=/home/lee/monitor/test1/
+
+
+
