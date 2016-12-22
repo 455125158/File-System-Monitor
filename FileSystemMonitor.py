@@ -172,6 +172,10 @@ def startMonitor(mpath,plugin_path,logger,log_file,objClass):
     """
     t_str = time.strftime('%Y%m%d%H%M%S')
     logger.info("service  is started !!!!")
+    logger.info("monitor path :" + mpath)
+    logger.info("plugin path :" + plugin_path)
+    logger.info("log file :" + log_file)
+    logger.info(" base class of plugin :" + str(objClass))
     try :
         observer = Observer()
         event_handler = FileEventHandler(mpath,plugin_path,logger,log_file,objClass)
